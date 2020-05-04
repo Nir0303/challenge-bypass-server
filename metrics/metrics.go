@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"runtime"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang"
 )
 
 var (
