@@ -13,8 +13,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/privacypass/challenge-bypass-server"
-	"github.com/privacypass/challenge-bypass-server/crypto"
+	"github.com/Nir0303/challenge-bypass-server"
+	"github.com/Nir0303/challenge-bypass-server/crypto"
 	"github.com/Nir0303/challenge-bypass-server/metrics"
 )
 
