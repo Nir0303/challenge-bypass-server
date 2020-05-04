@@ -7,7 +7,8 @@ import (
 	"net/http/pprof"
 	"runtime"
 
-	"github.com/prometheus/client_golang"
+	"github.com/prometheus/client_golang/prometheus"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 var (
@@ -96,7 +97,7 @@ func RegisterAndListen(listenAddr string, errLog *log.Logger) {
 	}
 
 	mux := http.NewServeMux()
-	mux.Handle("/metrics", prometheus.Handler())
+	mux.Handle("/metrics", promhttp.Handler())
 
 	mux.HandleFunc("/debug/pprof/", pprof.Index)
 	mux.HandleFunc("/debug/pprof/cmdline", pprof.Cmdline)
