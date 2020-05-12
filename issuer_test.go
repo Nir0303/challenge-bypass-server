@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Nir0303/challenge-bypass-server/crypto"
+	"privacypass/challenge-bypass-server/crypto"
 )
 
 var (

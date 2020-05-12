@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Nir0303/challenge-bypass-server/crypto"
+	"privacypass/challenge-bypass-server/crypto"
 )
 
 // Tests that token arrays can be encoded correctly for all curve settings

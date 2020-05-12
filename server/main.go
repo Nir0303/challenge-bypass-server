@@ -13,9 +13,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Nir0303/challenge-bypass-server"
-	"github.com/Nir0303/challenge-bypass-server/crypto"
-	"github.com/Nir0303/challenge-bypass-server/metrics"
+	"privacypass/challenge-bypass-server"
+	"privacypass/challenge-bypass-server/crypto"
+	"privacypass/challenge-bypass-server/metrics"
 )
 
 var (
